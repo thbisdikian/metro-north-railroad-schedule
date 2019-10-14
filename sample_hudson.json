@@ -1,0 +1,39 @@
+{
+    "id": "745", 
+    "trip_update": 
+    {
+        "trip": 
+        {
+            "start_time": "1608", 
+            "start_date": "10142019", 
+            "route_id": "1"
+        }, 
+        "stop_time_update": 
+        [
+            {"arrival": {"delay": 300, "time": 1571083980}, "departure": {"delay": 300, "time": 1571083980}, "stop_id": "1"}, 
+            {"arrival": {"delay": 300, "time": 1571084580}, "departure": {"delay": 300, "time": 1571084580}, "stop_id": "4"}, 
+            {"arrival": {"delay": 300, "time": 1571085540}, "departure": {"delay": 300, "time": 1571085540}, "stop_id": "18"}, 
+            {"arrival": {"delay": 300, "time": 1571085900}, "departure": {"delay": 300, "time": 1571085900}, "stop_id": "22"}, 
+            {"arrival": {"delay": 300, "time": 1571086080}, "departure": {"delay": 300, "time": 1571086080}, "stop_id": "23"}, 
+            {"arrival": {"delay": 300, "time": 1571086200}, "departure": {"delay": 300, "time": 1571086200}, "stop_id": "24"}, 
+            {"arrival": {"delay": 300, "time": 1571086320}, "departure": {"delay": 300, "time": 1571086320}, "stop_id": "25"}, 
+            {"arrival": {"delay": 300, "time": 1571086560}, "departure": {"delay": 300, "time": 1571086560}, "stop_id": "27"}, 
+            {"arrival": {"delay": 300, "time": 1571086740}, "departure": {"delay": 300, "time": 1571086740}, "stop_id": "29"}, 
+            {"arrival": {"delay": 300, "time": 1571086980}, "departure": {"delay": 300, "time": 1571086980}, "stop_id": "30"}, 
+            {"arrival": {"delay": 300, "time": 1571087160}, "departure": {"delay": 300, "time": 1571087160}, "stop_id": "31"}, 
+            {"arrival": {"delay": 300, "time": 1571087520}, "departure": {"delay": 300, "time": 1571087520}, "stop_id": "33"}
+        ]
+    }, 
+    "vehicle": 
+    {
+        "trip": {"trip_id": "745"}, 
+        "position": 
+        {
+            "latitude": 41.01245880126953, "longitude": -73.87940216064453
+        }, 
+        "current_status": 1, 
+        "timestamp": 1571086162, 
+        "stop_id": "23", 
+        "vehicle": {"label": "745"}
+    }
+}
