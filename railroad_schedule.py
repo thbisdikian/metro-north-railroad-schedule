@@ -9,11 +9,12 @@ from protobuf_to_dict import protobuf_to_dict
 load_dotenv()
 
 API_KEY = os.environ['API_KEY']
-print(API_KEY)
 
-r = requests.get(
+response = requests.get(
     "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr",
     headers={"x-api-key": API_KEY}
 )
 
-print(r)
+feed = gtfs_realtime_pb2.FeedMessage()
+feed.ParseFromString(response.content)
+train_data = protobuf_to_dict(feed)['entity']

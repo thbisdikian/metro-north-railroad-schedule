@@ -1,0 +1,35 @@
+{
+    "id": "1244", 
+    "trip_update": 
+    {
+        "trip": 
+        {
+            "start_time": "1558", 
+            "start_date": "10142019", 
+            "route_id": "3"
+        }, 
+        "stop_time_update": 
+        [
+            {"arrival": {"time": 1571083080}, "departure": {"time": 1571083080}, "stop_id": "1"}, 
+            {"arrival": {"time": 1571083680}, "departure": {"time": 1571083680}, "stop_id": "4"}, 
+            {"arrival": {"time": 1571084520}, "departure": {"time": 1571084520}, "stop_id": "105"}, 
+            {"arrival": {"time": 1571084700}, "departure": {"time": 1571084700}, "stop_id": "106"}, 
+            {"arrival": {"time": 1571084880}, "departure": {"time": 1571084880}, "stop_id": "108"}, 
+            {"arrival": {"time": 1571085120}, "departure": {"time": 1571085120}, "stop_id": "110"}, 
+            {"arrival": {"time": 1571085300}, "departure": {"time": 1571085300}, "stop_id": "111"}, 
+            {"arrival": {"time": 1571085780}, "departure": {"time": 1571085780}, "stop_id": "112"}
+        ]
+    }, 
+    "vehicle": 
+    {
+        "trip": {"trip_id": "1244"}, 
+        "position": {"latitude": 40.753150939941406, "longitude": -73.97737884521484}, 
+        "current_status": 2, 
+        "timestamp": 1571083221, 
+        "stop_id": "1", 
+        "vehicle": 
+        {
+            "label": "1244"
+        }
+    }
+}
